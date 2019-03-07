@@ -25,7 +25,6 @@ function pressIt() {
       alert("G was pressed");
     }
   });
-  
 }
 
 function submitIt() {
