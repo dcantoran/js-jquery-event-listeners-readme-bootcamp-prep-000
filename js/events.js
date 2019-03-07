@@ -9,5 +9,15 @@ $(document).ready(function(){
 
 function getIt() {
   $('p').on('click');
-  alert("Hey!")
+  alert("Hey!");
 }
+
+function frameIt() {
+  $('.tasty').on('load');
+}
+
+
+
+
+
+
