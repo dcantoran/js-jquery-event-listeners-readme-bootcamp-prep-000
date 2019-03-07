@@ -19,7 +19,7 @@ function frameIt() {
 function pressIt() {
   $(document).on('keydown');
   if(key.which === 73) {
-    alert('G key pressed')
+    alert('G key pressed');
   }
 }
 
