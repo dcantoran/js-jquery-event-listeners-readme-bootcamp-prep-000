@@ -17,10 +17,12 @@ function frameIt() {
 }
 
 function pressIt() {
-  $(document).on('keydown');
-  if(key.which === 73) {
-    alert('G key pressed');
-  }
+  $(document).on('keydown', function(key) {
+    if(key.which === '73') {
+      alert("G was pressed")
+    }
+  });
+  
 }
 
 function submitIt() {
